@@ -1,18 +1,8 @@
-.first-container{
-  height: 1px;
-  width: 5px;
-  background-color:darkgreen;
-  border: salmon;
+.container-1{
+  display: flex;
 }
 
-.second-container{
-  height: 1px;
-  width: 5px;
-  background-color:darkgreen;
-}
-
-.third-container{
-  height: 1px;
-  width: 5px;
-  background-color:crimson;
+.container-1 div{
+  border: 1px #ccc solid;
+  padding: 10px;
 }
