@@ -1,21 +1,24 @@
 .container-1{
   display: flex;
-  justify-content: space-between;
+  gap: 3rem;
+  justify-content: space-around;
 }
 
 .container-2{
   display: flex;
-  justify-content: space-between;
+  gap: 3rem;
+  justify-content: space-around;
 }
 
 .container-1 div, .container-2 div{
-  border: 1px #ccc solid;
-  padding: 50px;
+  padding: 10px;
+  border: 2px #ccc solid;
 }
 
 .box-1{
 flex: 1;
 order: 1;
+justify-content: center;
 }
 
 .box-2{
@@ -41,3 +44,21 @@ order: 2;
 flex: 1;
 order: 3;
   }
+
+h3{
+  justify-content: center;
+}
+
+.middle-container{
+  display: flex;
+  gap: 3rem;
+}
+.image{
+  display: flex;
+  justify-content: center;
+}
+
+.available{
+  background-color: dimgrey;
+  color: gold;
+}
